@@ -87,7 +87,7 @@ $(function() {
                 text: function(value) {
                     return value + '%';
                 },
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#6F6F6F'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
@@ -107,7 +107,7 @@ $(function() {
                 text: function(value) {
                     return value + '%';
                 },
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#6F6F6F'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
@@ -127,7 +127,7 @@ $(function() {
                 text: function(value) {
                     return value + '%';
                 },
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#6F6F6F'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
@@ -147,7 +147,7 @@ $(function() {
                 text: function(value) {
                     return value + '%';
                 },
-                colors: ['#f0f0f0', '#f14836'],
+                colors: ['#f0f0f0', '#6F6F6F'],
                 duration: 1000,
                 wrpClass: 'circles-wrp',
                 textClass: 'circles-text',
