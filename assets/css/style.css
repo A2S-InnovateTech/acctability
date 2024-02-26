@@ -132,12 +132,12 @@ p {
     -ms-transition: all .4s ease-out 0s;
     -o-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
-    background-color: #6F6F6F
+    background-color: #ffffff
 }
 
 .main-btn:hover {
-    background-color: rgba(77, 77, 77, 0.3);
-    color: #545454;
+    background-color: rgb(116, 114, 114);
+    color: #fffefe;
     border-color: #5d5d5d
 }
 
@@ -148,7 +148,8 @@ p {
 }
 
 .main-btn.main-btn-2:hover {
-    background-color: rgba(241, 72, 54, .3);
+    color: white;
+    background-color: #6F6F6F;
     border-color: #6F6F6F
 }
 
@@ -1178,9 +1179,9 @@ p {
 
 .single-counter.counter-color-3 .counter-shape .shape-1,
 .single-counter.counter-color-3 .counter-shape .shape-2 {
-    background: -webkit-linear-gradient(left, #686868 0%, #ff9387 100%);
-    background: -o-linear-gradient(left, #6f6f6f 0%, #ff9387 100%);
-    background: linear-gradient(to right, #6b6b6b 0%, #ff9387 100%)
+    background: -webkit-linear-gradient(left, #ff4800 0%, #fe1900 100%);
+    background: -o-linear-gradient(left, #ff4800 0%, hsl(6, 100%, 49%) 100%);
+    background: linear-gradient(to right, #ff4800 0%, #fa1900 100%)
 }
 
 .single-counter.counter-color-4 .counter-shape .shape-1,
@@ -1379,8 +1380,8 @@ p {
 }
 
 .single-service.service-border {
-    border-left: 1px solid #dedede4f;
-    border-right: 1px solid #dedede4f
+    border-left: 1px solid #fffdfd;
+    border-right: 1px solid #fffdfd
 }
 
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -2385,7 +2386,7 @@ p {
 
 .footer-link ul li a {
     font-size: 16px;
-    color: #798795;
+    color: #ffffff;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -2413,7 +2414,7 @@ p {
 
 .footer-contact .social li a {
     font-size: 26px;
-    color: #798795;
+    color: #ffffff;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -2422,7 +2423,7 @@ p {
 }
 
 .footer-contact .social li a:hover {
-    color: #6F6F6F
+    color: #ffffff
 }
 
 .footer-copyright {
@@ -2435,7 +2436,7 @@ p {
 }
 
 .footer-copyright .text a {
-    color: #6F6F6F
+    color: #fffbfb
 }
 
 .back-to-top {

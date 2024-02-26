@@ -81,7 +81,7 @@ $(function() {
             Circles.create({
                 id: 'circles-1',
                 radius: 50,
-                value: 95,
+                value: 96,
                 maxValue: 100,
                 width: 3,
                 text: function(value) {
@@ -101,7 +101,7 @@ $(function() {
             Circles.create({
                 id: 'circles-2',
                 radius: 50,
-                value: 85,
+                value: 98,
                 maxValue: 100,
                 width: 3,
                 text: function(value) {
@@ -121,7 +121,7 @@ $(function() {
             Circles.create({
                 id: 'circles-3',
                 radius: 50,
-                value: 75,
+                value: 97,
                 maxValue: 100,
                 width: 3,
                 text: function(value) {
@@ -141,7 +141,7 @@ $(function() {
             Circles.create({
                 id: 'circles-4',
                 radius: 50,
-                value: 70,
+                value: 99,
                 maxValue: 100,
                 width: 3,
                 text: function(value) {
