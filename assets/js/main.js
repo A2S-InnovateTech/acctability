@@ -81,7 +81,7 @@ $(function() {
             Circles.create({
                 id: 'circles-1',
                 radius: 50,
-                value: 96,
+                value: 99,
                 maxValue: 100,
                 width: 3,
                 text: function(value) {
