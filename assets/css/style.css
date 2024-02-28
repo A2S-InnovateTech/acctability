@@ -2146,6 +2146,10 @@ p {
   border-radius: 50%;
 }
 
+.author-image img {
+  border: 7px solid grey;
+}
+
 .single-testimonial .testimonial-author .author-info .author-name {
   padding-left: 30px;
 }
@@ -2275,7 +2279,7 @@ p {
 }
 
 .author-image {
-  width: 12rem;
+  width: 8rem;
   border-radius: 50%;
 }
 
@@ -2318,6 +2322,8 @@ p {
 
 .single-contact-info .contact-info-content {
   padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .single-contact-info .contact-info-content .text {
