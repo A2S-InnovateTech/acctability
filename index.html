@@ -914,7 +914,7 @@
                 <div class="col-lg-12">
                     <div class="contact-wrapper-form pt-115  wow fadeInUpBig" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h4 class="contact-title pb-10"><i class="fa-solid fa-envelope" style="color: red;"></i> Leave <span>A Message.</span></h4>
-                        <form id="contact-form" action="assets/contact.php" method="post">
+                        <form id="myForm"  action="https://formspree.io/f/mjvnobry" method="post">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="contact-form mt-45">
@@ -934,7 +934,12 @@
                                         <textarea name="message" placeholder="Enter your message..." style="background-color: aliceblue;"></textarea>
                                     </div>
                                 </div>
-                                <p class="form-message"></p>
+                                <!-- <p class="form-message"></p> -->
+                                <!-- <div id="confirmationMessage" style="display: none;">
+                                    <p>Mail sent! Thank you for your submission.</p>
+                                  </div> -->
+                                
+                                
                                 <div class="col-md-12">
                                     <div class="contact-form mt-45">
                                         <button type="submit" class="main-btn">Send Now</button>
@@ -1024,7 +1029,24 @@
 
 
 
-
+    <!-- <script>
+        // Function to show the confirmation message and hide the form
+        function showConfirmation() {
+          document.getElementById('confirmationMessage').style.display = 'block';
+        }
+    
+        // Add an event listener to the form for submission
+        document.getElementById('myForm').addEventListener('submit', function (event) {
+          // Prevent the default form submission
+          event.preventDefault();
+    
+          // Your additional form submission logic here
+    
+          // Show the confirmation message
+          showConfirmation();
+        });
+      </script> -->
+    
 
 
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
